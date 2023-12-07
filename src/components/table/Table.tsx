@@ -133,7 +133,7 @@ const Table: React.FC<TableProps> = ({
                             <td key={cellIndex} className="px-4 py-6">
                                 {cellIndex === 0 && (
                                     <div className="flex items-center justify-between">
-                                        <span className="ml-2">{cell}</span>
+                                        <span className="mx-2">{cell}</span>
                                         {renderPlusButton(rowIndex)}
                                     </div>
                                 )}
