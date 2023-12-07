@@ -1,0 +1,8 @@
+.user-avatar {
+    background-image: url("/user.png");
+
+    /* Set background properties */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

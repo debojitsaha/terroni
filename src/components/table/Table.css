@@ -1,0 +1,27 @@
+.custom-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #d8d8d9;
+    background-color: #d8d8d9;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.custom-checkbox:checked {
+    background-color: #1f2975;
+    border-color: #1f2975;
+}
+
+th {
+    font-family: "Poppins", sans-serif;
+}
+.plus-btn {
+    background-color: #9194ba;
+}
+
+tbody {
+    font-size: 90%;
+}

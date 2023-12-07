@@ -1,0 +1,28 @@
+/* Sidebar.css */
+
+.sidebar-item {
+    font-family: "Poppins", sans-serif;
+    color: #525582;
+    position: relative;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    background-color: #1f2975;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0; /* Initially hidden */
+}
+
+.nav-link.active .sidebar-item {
+    font-weight: 600;
+    color: #1f2975;
+}
+
+.nav-link.active .sidebar-item .indicator {
+    opacity: 1;
+}
