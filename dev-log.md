@@ -6,7 +6,7 @@ Here's a documentation of the steps taken to create this project:
 -   clone the git repo:
 
 ```bash
-git clone git@github.com:debojitsaha/dropper.git
+git clone git@github.com:debojitsaha/terroni.git
 ```
 
 -   initialize vite with react and typescript:
